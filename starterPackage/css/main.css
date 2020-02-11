@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+nav {
+  height: 40px;
+  background-color: yellow;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed; }
+  nav .lonks {
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+    nav .lonks a {
+      color: black;
+      text-decoration: none; }
+
+.earth {
+  height: 400px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.75))), url(../img/legos.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)), url(../img/legos.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)), url(../img/legos.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)), url(../img/legos.jpg);
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+  .earth .callout {
+    color: white;
+    font-family: serif;
+    font-size: 32px;
+    margin-right: 75px; }
+
+.legosinfo {
+  width: 100%;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .legosinfo .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%; }
+    .legosinfo .container .rightImg {
+      width: 400px;
+      height: 400px;
+      background-image: url(../img/legos2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
+    .legosinfo .container .rightImg2 {
+      width: 400px;
+      height: 400px;
+      background-image: url(../img/earth.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
+    .legosinfo .container .leftImg {
+      width: 400px;
+      height: 400px;
+      background-image: url(../img/legos3.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center; }
+    .legosinfo .container .leftImg2 {
+      width: 400px;
+      height: 400px;
+      background-image: url(../img/noway.jpg);
+      background-repeat: no-repeat;
+      background-size: center;
+      background-position: center; }
+    .legosinfo .container .content {
+      width: 400px;
+      height: 400px;
+      margin-left: 33px;
+      font-size: 14px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+    .legosinfo .container .content2 {
+      width: 400px;
+      height: 400px;
+      margin-right: 33px;
+      font-size: 14px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+    .legosinfo .container .ccenter {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .legosinfo .container h1 {
+      font-size: 64px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+.trans {
+  height: 250px;
+  width: 100%;
+  background-image: url(../img/trans.jpeg); }
